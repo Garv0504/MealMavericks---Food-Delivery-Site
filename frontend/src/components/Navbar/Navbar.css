@@ -24,7 +24,7 @@
     content: "";
     top: 100%;
     left: 0;
-    background-color: black;
+    background-color: orangered;
     width: 100%;
     transition: top 0.3s;
 }
@@ -43,7 +43,7 @@
 .logo{
     width: 150px;
 }
-a{
+.sign{
     position: relative;
     padding: 10px 20px;
     background-color: transparent;
@@ -54,7 +54,7 @@ a{
     overflow: hidden;
     transition: top 0.2s;
 }
-a::after{
+.sign::after{
     z-index: -100;
     width: 100%;
     height: 100%;
@@ -65,10 +65,18 @@ a::after{
     left: 0;
     transition: top 0.2s;
 }
-a:hover::after{
+.sign:hover::after{
     top: 0;
     border-radius: 25px;
 }
-a:hover{
+.sign:hover{
     color: white;
+}
+.nav-links img{
+    cursor: pointer;
+}
+.navbar h1{
+    color: orangered;
+    font-weight: 700;
+    font-size: 36px;
 }

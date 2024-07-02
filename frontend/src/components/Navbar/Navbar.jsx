@@ -5,7 +5,8 @@ import { assets } from '../../assets/assets'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src={assets.logo} alt="" className='logo'/>
+      {/* <img src={assets.logo} alt="" className='logo'/> */}
+      <h1>MealMavericks.</h1>
       <ul className="nav-menu">
         <li>Home</li>
         <li>Menu</li>
@@ -18,7 +19,7 @@ const Navbar = () => {
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <a href="">Sign In</a>
+        <a href="" className='sign'>Sign In</a>
       </div>
     </div>
   )

@@ -1,0 +1,42 @@
+.header{
+    height: 70vh;
+    position: relative;
+    margin-bottom: 30px;
+}
+.header img{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.1),transparent);
+    border-radius: 20px;
+}
+.header-item{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    width: 50%;
+    animation: fadeIn 2.5s;
+}
+.header-item h2{
+    font-size: 5vw;
+    color: white;
+    line-height: 6vw;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.header-item p{
+    font-size: 1vw;
+    color: white;
+    line-height: 1.5vw;
+    margin-bottom: 30px;
+}
+.header-item a{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 25px;
+    color: rgb(107, 107, 107);
+}
