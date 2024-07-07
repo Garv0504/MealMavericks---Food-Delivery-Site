@@ -1,14 +1,15 @@
 import React from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
+import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
   return (
     <div className='navbar'>
       {/* <img src={assets.logo} alt="" className='logo'/> */}
-      <h1>MealMavericks.</h1>
+      <Link to="/"><h1>MealMavericks.</h1></Link>
       <ul className="nav-menu">
-        <li>Home</li>
+        <Link to="/"><li>Home</li></Link>
         <li>Menu</li>
         <li>Mobile App</li>
         <li>Contact Us</li>
@@ -16,10 +17,10 @@ const Navbar = () => {
       <div className="nav-links">
         <img src={assets.search_icon} />
         <div className="nav-search-icon">
-          <img src={assets.basket_icon} alt="" />
+          <Link to="/cart"><img src={assets.basket_icon} alt="" /></Link>
           <div className="dot"></div>
         </div>
-        <a href="" className='sign'>Sign In</a>
+        <Link onClick={()=>setShowLogin(true)} className='sign'>Sign In</Link>
       </div>
     </div>
   )

@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo h1{
+    color: orangered;
+    font-weight: 700;
+    font-size: max(1vw,36px);
+}
+.logo h4{
+    font-weight: 500;
+    margin-top: -4px;
+}
+.profile{
+    width: 40px;
+}

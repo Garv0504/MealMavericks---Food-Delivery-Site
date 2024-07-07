@@ -40,3 +40,24 @@
     border-radius: 25px;
     color: rgb(107, 107, 107);
 }
+@media (max-width:1050px) {
+    .header{
+        width: 55%;
+    }
+}
+@media (max-width:750px) {
+    .header{
+        width: 100%;
+        height: 90%;
+    }
+    .back{
+        display: none;
+    }
+    .header p{
+        display: none;
+    }
+    .header a{
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

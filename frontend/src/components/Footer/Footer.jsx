@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-content-left">
                 {/* <img src={assets.logo} alt="" /> */}
                 <h1>MealMavericks.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur est iste quaerat? Minus quasi eveniet ad modi, dolores eos aspernatur et adipisci explicabo expedita!</p>
+                <p>MealMavericks delivers gourmet meals from top local chefs, ensuring fresh, delicious dishes at your doorstep. With eco-friendly packaging and swift delivery, it's a foodie's dream come true!</p>
                 <div className="footer-social-icon">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
